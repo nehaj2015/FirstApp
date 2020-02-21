@@ -1,12 +1,12 @@
 package com.example.firstapp;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-public class PlayerMainActivity extends AppCompatActivity {
+public class PlayerMainActivity extends Activity {
 
     public static final String EXTRA_MESSAGE = "com.example.firstapp.MESSAGE";
 
